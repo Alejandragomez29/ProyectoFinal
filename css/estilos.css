@@ -1,0 +1,59 @@
+:root{
+    --nord0: #402e35;
+    --nord1: #3b4252;
+    --nord2:#434C5E;
+    --nord3:#4C566A;
+
+    --nord4:#D8DEE9;
+    --nord5:#E5E9F0;
+    --nord6:#ECEFF4;
+    --nord7:#8FBCBB;
+    --nord8:#88C0D0;
+    --nord9:#81A1C1;
+    --nord10:#5E81AC;
+    --nord11:#BF6164;
+    --nord12:#D08770;
+    --nord13:#EBCB8B;
+    --nord14:#A3BE8C;
+    --nord15:#B48EAD;
+    --font: BlinMacSystemFont, -apple-sytem, "Segoe UI", "Roboto", 
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", 
+    "Helvetica Neu Helvetica ", "Arial", sans-serif; 
+
+    
+}
+
+
+body{
+    font-family: var(--font);
+    color:var(--nord15);
+    background-color:  lightgrey;
+    
+}
+header , section {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kalam', cursive;
+    font-family: 'Shantell Sans', cursive;
+    
+}
+header{
+    background-color: pink;
+}
+
+
+article{
+    width: 60%;
+}
+img {
+    width: 200px;
+    height: 200px;
+    margin-right: 16px;
+}
+a,a:link, a:visited{
+    text-decoration: none;
+    color: var(--nord6);
+    
+}
